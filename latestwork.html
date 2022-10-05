@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Latest work</title>
+    <!--Font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <!---Scroll reveal CDN-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+<style>
+    *,
+    *::before,
+    *::after {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+        font-family: "Cabin", sans-serif;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    img {
+        width: 100%;
+        max-width: 100%;
+        margin-top: -5px;
+    }
+
+    p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .nav{
+        justify-content: center;
+    }
+
+    /*dISCOVER oUR MENU*/
+
+    .restaurant-info {
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hello {
+        line-height: 1.3;
+    }
+
+    .logo1 {
+        margin-left: 2rem;
+        height: 5rem;
+        width: 5rem;
+        margin-top: 0.5rem;
+    }
+
+    .text {
+        margin-top: 7px;
+        width: 80%;
+        justify-content: center;
+        text-align: center;
+        padding: 0rem;
+        font-size: 3.5rem;
+        color: yellowgreen;
+        font-family: "Palatino";
+        text-transform: uppercase;
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+
+    
+
+    .site {
+        margin-top: 4rem;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 30px;
+        display: flex;
+    }
+
+    /* .new {
+        margin-bottom: 1rem;
+    border: solid 4px crimson;
+    color: crimson;
+    font-weight: 700;
+        
+    } */
+
+    .align {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .size {
+        height: 400px;
+    width: 700px;
+    }
+
+    .request {
+        font-size: 2rem;
+        padding: 1rem;
+        margin-top: 2rem;
+        margin-bottom: -2rem;
+        background: cornsilk;
+    }
+
+    .request-text {
+        justify-content: center;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    button {
+        position: relative;
+        margin: 0px 18px;
+        padding: 5px;
+        font-size: 1.5rem;
+        font-weight: 600;
+        /* border: none; */
+        background: none;
+        text-transform: uppercase;
+        border-radius: 6px;
+        background: #ffffff;
+        color: #b00000;
+        border-style: double;
+    }
+
+    @media only screen and (max-width:590px) {
+
+
+
+        img {
+            margin-top: -3px;
+        }
+
+        .hello {
+            line-height: 1.2;
+            font-size: 3rem;
+            font-weight: 800;
+            color: crimson;
+        }
+
+        .image-group {
+            width: 32rem;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 1.5rem;
+        }
+
+        .container {
+            height: 10rem;
+            margin: 0 auto;
+        }
+
+        .logo1 {
+            margin-left: 2rem;
+            height: 4rem;
+            width: 4rem;
+            margin-top: 0.5rem;
+        }
+
+        .text {
+            width: 80%;
+            justify-content: center;
+            text-align: center;
+            padding: 0rem;
+            font-size: 3.3rem;
+            color: yellowgreen;
+
+        }
+
+        .restaurant-info {
+            height: 100%;
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .box {
+            width: 100%;
+            height: 100%;
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
+        }
+
+        .size {
+            height: auto;
+            width: inherit;
+        }
+
+        .new {
+            margin-bottom: 1rem;
+            font-size: 15px;
+        }
+
+        button {
+            position: relative;
+            margin: 0;
+            top: -5px;
+            /* margin-top: 7px; */
+            margin-left: 10px;
+            padding: 3px;
+            font-size: 1.4rem;
+            /* border: none; */
+            background: none;
+            text-transform: uppercase;
+            border-radius: 6px;
+
+        }
+    }
+        
+
+</style>
+</head>
+<body>
+
+    <header class="head">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo1"><img src="images/logo.png"></a>
+                <h2 class="text">Latest work</h2>
+            </nav>
+        </div>
+    </header>
+
+<!--New (15th August)-->
+    <section class="discover-our-menu" id="answer">
+        <div class="container">
+            <div class="restaurant-desscription animate-right">
+                <div class="global-headline">
+                    <h2 class="sub-headline">
+                        <span class="hello">'TREES FOR FUTURE' INITIATIVE AT CHATRI TALAO, AMT.
+                    </h2>
+
+                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                </div>
+                <p>
+                    Carrying forward the enthusiasm, we had one more step towards our promise to the environment. 
+                    The venue of Chatri Talao once again witnessed a successful tree plantation event by the HTF 
+                    youth, but not the same. This time it was bigger and better. We are glad to see many more hands 
+                    joining in our ventures. This time we not only planted the tress, but also provided for their protection
+                    thus ensuring their survival. We were super delighted to have <u> <b>Scout Master Sir Surendra Sisat</b></u>
+                    and Biology teacher <u><b>Sir Vishal Nimbhorkar</b></u> as our chief guests for the event. They
+                    enriched us with their knowledge and experience. We are not only planting the plants but also
+                    their progress is being monitored each day and neccesary steps are being taken for the same.
+                    <br>
+                    <center style="font-size: 1.95rem; font-weight: 700;">We thank everyone who became the part of the event for supporting HTF in its 
+                        another successful event.
+                    </center>
+                    <br><br><br>
+                </p>
+            </div>
+        </div>
+        <div class="restaurant-info">
+                <div class="image-group padding-right animate-left">
+                    <img src="images/August/a.jpg" alt="">
+                    <img src="images/August/c.jpg" alt="">
+                    <img src="images/August/d.jpg" alt="">
+                    <img src="images/August/f.jpg" alt="">
+                    <img src="images/August/j.jpg" alt="">
+                    <img src="images/August/k.jpg" alt="">
+                    <img src="images/August/g.jpg" alt="">
+                    <img src="images/August/i.jpg" alt="">
+                    <img src="images/August/e.jpg" alt="">
+                    <img src="images/August/h.jpg" alt="">
+                    <img src="images/August/l.jpg" alt="">
+                </div>
+            </div>
+    </section>
+
+
+    <section class="discover-our-menu" id="answer">
+        <div class="container">
+            <div class="restaurant-desscription animate-right">
+                <div class="global-headline">
+                    <h2 class="sub-headline">
+                        <span class="hello">'TREES FOR FUTURE' INITIATIVE AT CHATRI TALAO, AMT.
+                    </h2>
+
+                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                </div>
+                <p>
+                    After making a remarkable beginning, with its clean environment initiative, HTF soon was ready for a
+                    new one. Recently we
+                    stepped forward with an object of planting trees to sustain the natural ecosystem there. An increase
+                    in the number of daily visitors
+                    has somewhere affected the balance of ecosystem there, Henceforth without any delay, HTF took the
+                    action. It planted no. of saplings, giving
+                    a push to its 'Trees for Future' Initiative. But, this could not be considered enough. HTF not only
+                    planted the saplings but also
+                    is going to take care for them enuring their survival. We understand our responsibility and ensure
+                    that the very purpose of our initiative
+                    for our society gets fulfilled. During the whole process, we had a much needed guidance from
+                    <u>Mr. Gaurav Bansod</u> and <u> Mr. Prathamesh Pathak</u>
+                    by way of their knowledge and experience of making such initiatives successful. <br><br><br>
+                </p>
+            </div>
+        </div>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide align size" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                
+            </div>
+            <div class="carousel-inner align">
+
+                <div class="carousel-item active size">
+                    <img src="images/latest work/5.jpg" class="d-block w-100" alt="...">
+                </div>
+    
+                <div class="carousel-item size">
+                    <img src="images/latest work/3.jpg" class="d-block w-100" alt="...">
+                </div>
+    
+                <div class="carousel-item size">
+                    <img src="images/latest work/1.jpg" class="d-block w-100" alt="...">
+                </div>
+    
+                <div class="carousel-item size">
+                    <img src="images/latest work/9.jpg" class="d-block w-100" alt="...">
+                </div>
+    
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    
+    
+
+    <section class="discover-our-menu" id="answer">
+        <div class="container">
+            <div class="restaurant-desscription animate-right">
+                <div class="global-headline">
+                    <h2 class="sub-headline">
+                        <span class="hello">'CLEAN ENVIRONMENT' INITIATIVE AT CHATRI TALAO, AMT.
+                    </h2>
+
+                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                </div>
+                <p>
+                    On Aug 1, 2021 HTF started its journey by undertaking a great initiative on Day 1 itself.
+                    In our past visits to Chatri Talao, Amt. We had been noticing a significant amount of litter
+                    all over the place. Chatri Talao being one of the most commonly visited venues by people
+                    to experience the closeness with the nature, has in the recent time developed a big threat due to
+                    constantly increasing no. of visitors. Litter in the form of plastic wastes, could severely
+                    affect the natural habitats of species there causing an imbalance. HTF, tooking a step forward, took
+                    the initiative to clean the garbage spread. We joined hands together to get the garbage in the
+                    bins. A significant change in the cleanliness was clearly noticeable after the work was completed.
+                    <br>
+                </p>
+
+            </div>
+        </div>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide align size" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner align">
+    
+                <div class="carousel-item active size" data-bs-interval="10000">
+                    <img src="images/latest work/c1.jpg" class="d-block w-100" alt="...">
+                </div>
+    
+                <div class="carousel-item size">
+                    <img src="images/latest work/c3.jpg" class="d-block w-100" alt="...">
+                </div>
+    
+                <div class="carousel-item size">
+                    <img src="images/latest work/c4.jpg" class="d-block w-100" alt="...">
+                </div>
+    
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+    </section>
+
+
+
+    
+
+    <div class="request">
+        <h2 class="request-text">To support us, donate some of your precious money for saving the nature. <br>
+            To contact us <a href="https://t.me/joinchat/fBDHtR5yQhpkYjk9">click here</a>
+        </h2>
+    </div>
+
+    <div class="site">
+        <button>
+            <a href="index.html" class=" new">Go to main site</a>
+        </button>
+
+        <button onclick="buttonAlert()">Upcoming Events</button>
+
+    </div>
+
+    <script src="main.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
